@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Formula1';
+    src: url('Formula1.woff2') format('woff2'),
+         url('Formula1.woff') format('woff'),
+         url('Formula1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Formula1', sans-serif; /* Aplica la fuente personalizada */
+    background-color: #f0f0f0;
+    color: #333; /* Color de texto más oscuro para contraste */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px 10px 20px; 
+    border: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit; /* Hereda la fuente del cuerpo */
+    margin-top: 0.7%;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      max-width: 90%;
+    }
+  }
